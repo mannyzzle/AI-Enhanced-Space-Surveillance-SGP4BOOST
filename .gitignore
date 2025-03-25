@@ -1,0 +1,27 @@
+# -------------------------------
+# 1. Python-specific ignores
+# -------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# -------------------------------
+# 2. Virtual Environments & Env Files
+# -------------------------------
+venv/
+.env
+*.env
+
+# -------------------------------
+# 3. macOS system files
+# -------------------------------
+.DS_Store
+
+# -------------------------------
+# 4. Folders to ignore
+# -------------------------------
+backend/SpaceWeather/
+backend/tle_data/
+backend/GpData.csv
